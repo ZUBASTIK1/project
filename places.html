@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="fav2.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Редакторы</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html">
+          <img src="logo.png" alt="Logo" width="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html"
+                >Описание редакторов</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="buy.jpg" card-img-top alt=".img" />
+            <div class="card-body">
+              <h5 class="card-title">Visual Studio Code</h5>
+              <p class="card-text">
+                Visual Studio Code — редактор исходного кода, разработанный
+                Microsoft для Windows, Linux и macOS. Позиционируется как
+                «лёгкий» редактор кода для кроссплатформенной разработки веб- и
+                облачных приложений.
+              </p>
+              <a
+                href="https://code.visualstudio.com/download"
+                target="_blank"
+                class="btn btn-primary"
+                >Скачать
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="note.img" class="card-img-top" alt=".img" />
+            <div class="card-body">
+              <h5 class="card-title">Notepad++</h5>
+              <p class="card-text">
+                Notepad++ — свободный текстовый редактор с открытым исходным
+                кодом для Windows с подсветкой синтаксиса, разметки, а также
+                языков описания аппаратуры VHDL и Verilog. Базируется на
+                компоненте Scintilla, написан на C++.
+              </p>
+              <a
+                href="https://notepad-plus-plus.org/downloads/"
+                target="_blank"
+                class="btn btn-primary"
+                >Скачать
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="reen.img" class="card-img-top" alt=".img" />
+            <div class="card-body">
+              <h5 class="card-title">Sublime Text</h5>
+              <p class="card-text">
+                Sublime Text — проприетарный текстовый редактор. Поддерживает
+                плагины на языке программирования Python. Разработчик позволяет
+                бесплатно и без ограничений ознакомиться с продуктом, однако
+                программа требует приобретения лицензии.
+              </p>
+              <a
+                href="https://www.sublimetext.com/3"
+                target="_blank"
+                class="btn btn-primary"
+                >Скачать
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="mama.img" class="card-img-top" alt=".img" />
+            <div class="card-body">
+              <h5 class="card-title">WebStorm</h5>
+              <p class="card-text">
+                JetBrains WebStorm — интегрированная среда разработки на
+                JavaScript, CSS & HTML от компании JetBrains, разработанная на
+                основе платформы IntelliJ IDEA. WebStorm обеспечивает
+                автодополнение, анализ кода на лету, навигацию по коду,
+                рефакторинг, отладку, и интеграцию с системами управления
+                версиями.
+              </p>
+              <a
+                href="https://www.jetbrains.com/ru-ru/webstorm/download/#section=windows"
+                target="_blank"
+                class="btn btn-primary"
+                >Скачать
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="sister.img" class="card-img-top" alt=".img" />
+            <div class="card-body">
+              <h5 class="card-title">Vim</h5>
+              <p class="card-text">
+                Vim — свободный текстовый редактор, созданный на основе более
+                старого vi. Ныне это мощный текстовый редактор с полной свободой
+                настройки и автоматизации, возможными благодаря расширениям и
+                надстройкам. Пользовательский интерфейс Vim’а может работать в
+                чистом текстовом режиме.
+              </p>
+              <a
+                href="https://www.vim.org/download.php"
+                target="_blank"
+                class="btn btn-primary"
+                >Скачать
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="rus.img" class="card-img-top" alt=".img" />
+            <div class="card-body">
+              <h5 class="card-title">Eclipse</h5>
+              <p class="card-text">
+                Eclipse — свободная интегрированная среда разработки модульных
+                кроссплатформенных приложений. Развивается и поддерживается
+                Eclipse Foundation. Наиболее известные приложения на основе
+                Eclipse Platform — различные «Eclipse IDE» для разработки ПО на
+                множестве языков. Eclipse разрабатывалась IBM как среда
+                VisualAge
+              </p>
+              <a
+                href="https://www.eclipse.org/downloads/"
+                target="_blank"
+                class="btn btn-primary"
+                >Скачать
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="atom.img" class="card-img-top" alt=".img" />
+            <div class="card-body">
+              <h5 class="card-title">Atom</h5>
+              <p class="card-text">
+                Atom — бесплатный текстовый редактор с открытым исходным кодом
+                для Linux, macOS, Windows с поддержкой плагинов, написанных на
+                JavaScript, и встраиваемых под управлением Git. Большинство
+                плагинов имеют статус свободного программного обеспечения,
+                разрабатываются и поддерживаются сообществом.
+              </p>
+              <a href="https://atom.io/" target="_blank" class="btn btn-primary"
+                >Скачать
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="amer.img" class="card-img-top" alt=".img" />
+            <div class="card-body">
+              <h5 class="card-title">Adobe Dreamweaver</h5>
+              <p class="card-text">
+                Dreamweaver — визуальный HTML-редактор компании Adobe.
+                Изначально разработан и поддерживался компанией Macromedia,
+                вплоть до 8-й версии. Следующие версии, начиная с Dreamweaver
+                CS3, выпускает Adobe.
+              </p>
+              <a
+                href="https://www.adobe.com/ru/products/dreamweaver/free-trial-download.html"
+                target="_blank"
+                class="btn btn-primary"
+                >Скачать
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="hol.img" class="card-img-top" alt=".img" />
+            <div class="card-body">
+              <h5 class="card-title">Brackets</h5>
+              <p class="card-text">
+                Brackets — свободный текстовый редактор для веб-разработчиков.
+                Brackets ориентирован на работу с HTML, CSS и JavaScript. Эти же
+                технологии лежат в основе самого редактора, что обеспечивает его
+                кроссплатформенность то есть совместимость с операционными
+                системами Mac, Windows и Linux.
+              </p>
+              <a
+                href="https://brackets.ru.uptodown.com/windows"
+                target="_blank"
+                class="btn btn-primary"
+                >Скачать
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="lu.img" class="card-img-top" alt=".img" />
+            <div class="card-body">
+              <h5 class="card-title">Bluefish</h5>
+              <p class="card-text">
+                Bluefish Editor — свободный текстовый редактор для
+                веб-разработчиков и дизайнеров.Bluefish был начат Чирисом
+                Мазуком и Оливером Сессинком в 1997 году чтобы поспособствовать
+                профессионалам веб-разработки на настольных Linux платформах.
+              </p>
+              <a
+                href="https://biblprog.org.ua/ru/bluefish/"
+                target="_blank"
+                class="btn btn-primary"
+                >Скачать
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
